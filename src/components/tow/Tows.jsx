@@ -6,9 +6,10 @@ import image2 from "../../assets/tow/Frame 14176.png"
 import userImage from "../../assets/tow/Ellipse 2.png"
 import spiral from "../../assets/tow/Spiral 3.png"
 
-const About = () => {
+const Tows = () => {
     return (
-        <div className="min-h-screen relative  max-[1020px] mx-auto:  p-8">
+       <section className="my-20">
+             <div className="min-h-screen relative  w-[100%] mx-auto:">
             <img src={dawn1} className="md:block hidden absolute right-[527px] z-50 top-[258px]" alt="" />
             {/* Upper */}
             <div className="md:grid md:grid-cols-12">
@@ -75,7 +76,8 @@ const About = () => {
                 </div>
             </div>
         </div>
+       </section>
     );
 };
 
-export default About;
+export default Tows;
