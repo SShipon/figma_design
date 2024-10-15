@@ -1,3 +1,4 @@
+import Eight from "../components/eight/Eight";
 import Five from "../components/five/Five";
 import Fore from "../components/fore/Fore";
 import One from "../components/one/One";
@@ -10,6 +11,7 @@ import Tows from "../components/tow/Tows";
 const Home = () => {
     return (
         <>
+        <Eight />
         <Seven />
         <Six />
         <Five />

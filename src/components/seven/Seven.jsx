@@ -10,7 +10,7 @@ import world from '../../assets/seven/icon/world.svg'
 const Seven = () => {
   return (
     <div className="my-10">
-      <div className="flex flex-col lg:flex-row justify-between">
+      <div className="flex flex-col lg:flex-row  justify-between">
         <div className="">
           <div className="circle-text">
             <img src={clock} alt="Clock" />
