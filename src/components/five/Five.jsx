@@ -3,7 +3,7 @@ import images from '../../assets/five/Image.png'
 const Five = () => {
     return (
        <section className='my-20'>
-              <div className="flex flex-row gap-12">
+              <div className="flex lg:flex-row flex-col gap-12">
         <div className="basis-1/2">
           <img className='w-[716px] h-[780px]' src={images} alt="" />
         </div>
