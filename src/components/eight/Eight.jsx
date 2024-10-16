@@ -28,7 +28,9 @@ const Eight = () => {
                         right: 15,
                     }}
                 />
+                
             </div>
+
         </div>
     );
 };
