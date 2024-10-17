@@ -1,5 +1,8 @@
 import garden from "../../assets/green/BG.png";
 import better from "../../assets/green/baner.png";
+import top1 from '../../assets/green/top1.svg'
+import top2 from '../../assets/green/top2.svg'
+import top3 from '../../assets/green/top3.svg'
 const Garden = () => {
   return (
   <div>
@@ -69,8 +72,36 @@ const Garden = () => {
 
 
     </div>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Non, iure, velit nulla sequi blanditiis, asperiores deleniti voluptate commodi inventore debitis id omnis in esse totam aperiam? Sint, consequatur! Molestiae, eos dolore? Ex placeat sapiente voluptate saepe quas et perferendis vel?</p>
-  </div>
+         <div className="py-16 w-[95%] mx-auto">
+         <div className="grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 justify-evenly  gap-4 ">
+             <div className="border border-[#D9D9D9] rounded-[16px] backdrop-blur-[16px] flex items-center gap-4 p-6">
+                  <div>
+                    <img className="w-[80px] h-[80px]" src={top1} alt="" />
+                  </div>
+                  <div>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Faucibus in libero risus</p>
+                  </div>
+             </div>
+             <div className="border border-[#D9D9D9] rounded-[16px] backdrop-blur-[16px] flex items-center gap-4 p-6">
+                  <div>
+                  <img className="w-[80px] h-[80px]" src={top2} alt="" />
+                  </div>
+                  <div>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Faucibus in libero risus</p>
+                  </div>
+             </div>
+             <div className="border border-[#D9D9D9] rounded-[16px] backdrop-blur-[16px] flex items-center gap-4 p-6">
+                  <div>
+                  <img className="w-[80px] h-[80px]" src={top3} alt="" />
+                  </div>
+                  <div>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Faucibus in libero risus</p>
+                  </div>
+             </div>
+             
+         </div>
+         </div>
+   </div>
   );
 };
 
