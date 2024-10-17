@@ -6,9 +6,9 @@ import top3 from '../../assets/green/top3.svg'
 const Garden = () => {
   return (
   <div>
-            <div className="flex">
+            <div className="flex lg:flex-row flex-col relative">
       <div
-        className="bg-no-repeat bg-cover bg-center w-[743px] h-[773px]"
+        className="bg-no-repeat bg-cover bg-center w-[743px] h-[773px] relative"
         style={{
           backgroundImage: `url(${garden})`,
         }}
@@ -66,8 +66,8 @@ const Garden = () => {
         </div>
       </div>
 
-      <div>
-            <img src={better} alt="" />  
+      <div className="lg:absolute lg:-right-10">
+            <img className="lg:w-[600px] lg:h-[auto] w-[100%]"   src={better} alt="" />  
         </div>
 
 
