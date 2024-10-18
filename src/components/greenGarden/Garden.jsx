@@ -14,13 +14,13 @@ const Garden = () => {
         }}
       >
         <div className="p-10">
-          <h3 className="text-[56px] font-poppins font-semibold leading-[128.571%] tracking-[0.56px] text-[#333333]">
+          <h3 className="lg:text-[56px]  text-wrap text-[22px] font-poppins font-semibold lg:leading-[128.571%] tracking-[0.56px] text-[#333333]">
             Bring{" "}
-            <span className="text-[56px] font-poppins font-semibold leading-[72px] tracking-[0.56px] text-[#437223]">
+            <span className="lg:text-[56px] text-[22px] font-poppins font-semibold lg:leading-[72px] tracking-[0.56px] text-[#437223]">
               GREEN
             </span>{" "}
             to your home and make you feel{" "}
-            <span className="text-[56px] font-poppins font-semibold leading-[72px] tracking-[0.56px] text-[#437223]">
+            <span className="lg:text-[56px] text-[22px] font-poppins font-semibold lg:leading-[72px] tracking-[0.56px] text-[#437223]">
               BETTER
             </span>
           </h3>
