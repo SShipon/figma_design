@@ -1,7 +1,7 @@
 /* eslint-disable react/prop-types */
 
 
-const Ones = ({one}) => {
+const Discover  = ({one}) => {
     const {  img, name } = one;
 
     return (
@@ -11,4 +11,4 @@ const Ones = ({one}) => {
     );
 };
 
-export default Ones;
+export default Discover ;

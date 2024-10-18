@@ -3,7 +3,7 @@ import rightImg from "../../assets/there/Image right (1).png";
 import img1 from "../../assets/there/5 (3).png";
 import img2 from "../../assets/there/5 (4).png";
 import img3 from "../../assets/there/5 (5).png";
-const There = () => {
+const DiscoverBeauty = () => {
   return (
     <div className="my-20">
       <div className="grid grid-cols-1 lg:grid-cols-3 md:grid-cols-2 gap-4 gap-y-10 items-center">
@@ -44,4 +44,4 @@ const There = () => {
   );
 };
 
-export default There;
+export default DiscoverBeauty;

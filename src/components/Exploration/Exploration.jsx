@@ -1,6 +1,6 @@
 
 import images from '../../assets/five/Image.png'
-const Five = () => {
+const Exploration = () => {
     return (
        <section className='my-20'>
               <div className="flex lg:flex-row flex-col gap-12">
@@ -34,4 +34,4 @@ const Five = () => {
     );
 };
 
-export default Five;
+export default Exploration;

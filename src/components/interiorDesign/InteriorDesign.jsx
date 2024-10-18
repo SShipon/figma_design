@@ -1,7 +1,7 @@
 import backgroundImage from "../../assets/eight/right.png";
 import leftImage from "../../assets/eight/left.png";
 
-const Eight = () => {
+const InteriorDesign = () => {
   return (
     <div className="bg-custom-gradient w-full lg:min-h-screen lg:relative lg:overflow-hidden">
       {/* First Section */}
@@ -78,4 +78,4 @@ const Eight = () => {
   );
 };
 
-export default Eight;
+export default InteriorDesign;

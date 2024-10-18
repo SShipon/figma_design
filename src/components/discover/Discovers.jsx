@@ -1,4 +1,4 @@
-import Ones from "./Ones";
+import Discover from "./Discover";
 import img1 from "../../assets/one/3.png";
 import img2 from "../../assets/one/4.png";
 import img3 from "../../assets/one/Rectangle 3 (1).png";
@@ -51,7 +51,7 @@ const oneData = [
   },
 ];
 
-const One = () => {
+const Discovers  = () => {
   return (
     <div className="space-y-8">
       <div className="flex items-center justify-center flex-col">
@@ -71,11 +71,11 @@ const One = () => {
       </div>
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-2">
         {oneData.map((one) => (
-          <Ones key={one.id} one={one}></Ones>
+          <Discover key={one.id} one={one}></Discover>
         ))}
       </div>
     </div>
   );
 };
 
-export default One;
+export default Discovers ;

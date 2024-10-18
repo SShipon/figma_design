@@ -1,5 +1,5 @@
 import hero from "../../assets/fore/hero Image (1).png";
-const Fore = () => {
+const Inspiration = () => {
   return (
     <section className="py-5">
 
@@ -30,4 +30,4 @@ const Fore = () => {
   );
 };
 
-export default Fore;
+export default Inspiration;

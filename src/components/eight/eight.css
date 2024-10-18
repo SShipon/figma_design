@@ -1,7 +1,0 @@
-.content {
-    position: absolute; /* Allow it to overlap the image */
-    top: 20%; /* Adjust as needed */
-    left: 50%; /* Center horizontally */
-    transform: translate(-50%, -50%); /* Center with respect to its own width and height */
-  }
-  

@@ -6,7 +6,7 @@ import image2 from "../../assets/tow/Frame 14176.png"
 import userImage from "../../assets/tow/Ellipse 2.png"
 import spiral from "../../assets/tow/Spiral 3.png"
 
-const Tows = () => {
+const Explore = () => {
     return (
        <section className="my-20">
              <div className="min-h-screen relative  w-[100%] mx-auto:">
@@ -80,4 +80,4 @@ const Tows = () => {
     );
 };
 
-export default Tows;
+export default Explore;

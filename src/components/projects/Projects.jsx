@@ -26,7 +26,7 @@ const products = [
   },
 ];
 
-const Six = () => {
+const Projects = () => {
   return (
     <div>
        <h2 className="text-[#252525] mx-4 w-1/2 font-avenir text-[88px] font-extrabold leading-[104px]"
@@ -57,4 +57,4 @@ const Six = () => {
   );
 };
 
-export default Six;
+export default Projects;

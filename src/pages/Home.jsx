@@ -1,26 +1,27 @@
-import Eight from "../components/eight/Eight";
-import Five from "../components/five/Five";
-import Fore from "../components/fore/Fore";
+
+import InteriorDesign from "../components/interiorDesign/InteriorDesign";
+import Exploration from "../components/Exploration/Exploration";
+import Inspiration from "../components/inspiration/Inspiration";
 import Garden from "../components/greenGarden/Garden";
-import One from "../components/one/One";
-import Seven from "../components/seven/Seven";
-import Six from "../components/six/Six";
-import There from "../components/there/There";
-import Tows from "../components/tow/Tows";
+import Discovers from "../components/discover/Discovers";
+import Watch from "../components/Watch/Watch";
+import Projects from "../components/projects/Projects";
+import DiscoverBeauty from "../components/DiscoverBeauty/DiscoverBeauty";
+import Explore from "../components/Explore/Explore";
 
 
 const Home = () => {
     return (
         <>
         <Garden />
-        <Eight />
-        <Seven />
-        <Six />
-        <Five />
-         <Fore />
-          <There />
-          <One />
-          <Tows />
+        <InteriorDesign />
+        <Watch />
+        <Projects />
+        <Exploration />
+         <Inspiration />
+          <DiscoverBeauty />
+          <Discovers />
+          <Explore />
         </>
     );
 };

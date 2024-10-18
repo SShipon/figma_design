@@ -7,7 +7,7 @@ import star1 from '../../assets/seven/icon/star.svg'
 import eye from '../../assets/seven/icon/eye.svg'
 import light from '../../assets/seven/icon/light.svg'
 import world from '../../assets/seven/icon/world.svg'
-const Seven = () => {
+const Watch = () => {
   return (
     <div className="my-10">
       <div className="flex flex-col lg:flex-row  justify-between">
@@ -16,7 +16,7 @@ const Seven = () => {
             <img src={clock} alt="Clock" />
           </div>
           <div className="space-y-4">
-            <h3  className="text-[#050505] w-1/2 font-playfair text-4xl font-bold leading-[50px]">THE eWatch with the newest microchip technology</h3>
+            <h3  className="text-[#050505] w-1/2 font-playfair text-4xl font-bold leading-[50px]">THE Watch with the newest microchip technology</h3>
             <p className="text-[#333] font-worksans  text-xl font-normal leading-[30px]">
             Lorem ipsum dolor sit amet, consectetur adipiscing <br /> elit. Faucibus in libero risus semper habitant arcu <br /> eget. Et integer facilisi eget diam.
             </p>
@@ -92,4 +92,4 @@ const Seven = () => {
   );
 };
 
-export default Seven;
+export default Watch;
