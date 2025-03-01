@@ -13,12 +13,12 @@ import Explore from "../components/Explore/Explore";
 const Home = () => {
     return (
         <>
-        <Garden />
-        <InteriorDesign />
-        <Watch />
-        <Projects />
-        <Exploration />
-         <Inspiration />
+         <Garden />
+          <InteriorDesign />
+          <Watch />
+          <Projects />
+          <Exploration />
+          <Inspiration />
           <DiscoverBeauty />
           <Discovers />
           <Explore />
