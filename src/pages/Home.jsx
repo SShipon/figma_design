@@ -11,13 +11,17 @@ import Explore from "../components/Explore/Explore";
 import Dream from "../components/dream/Dream";
 import TravelCard from "../components/travel/TravelCard";
 import FashionCard from "../components/fashion/FashionCard";
+import Walk from "../components/walk/Walk";
+import Love from "../components/love/Love";
 
 
 const Home = () => {
     return (
         <>
         <FashionCard />
+        <Love />
         <TravelCard />
+        <Walk />
         <Dream />
         <Garden />
         <InteriorDesign />
