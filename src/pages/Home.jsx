@@ -8,11 +8,17 @@ import Watch from "../components/Watch/Watch";
 import Projects from "../components/projects/Projects";
 import DiscoverBeauty from "../components/DiscoverBeauty/DiscoverBeauty";
 import Explore from "../components/Explore/Explore";
+import Dream from "../components/dream/Dream";
+import TravelCard from "../components/travel/TravelCard";
+import FashionCard from "../components/fashion/FashionCard";
 
 
 const Home = () => {
     return (
         <>
+        <FashionCard />
+        <TravelCard />
+        <Dream />
         <Garden />
         <InteriorDesign />
         <Watch />
