@@ -28,7 +28,7 @@ const FashionCard = () => {
         </div>
 
 
-        <div className="md:w-1/2 flex flex-col gap-6 text-center md:text-left my-24 ">
+        <div className="md:w-1/2 flex flex-col gap-6 text-center md:text-left my-24 pr-8 ">
           <div className="bg-gray-50 p-6 rounded-lg shadow-md border relative flex flex-col gap-4 mt-10">
             <div className="absolute -top-8 left-1/2 transform -translate-x-1/2 bg-white p-4 rounded-full shadow-md border">
              <img className='w-[50px] h-[50px]'  src={love} alt="" />
