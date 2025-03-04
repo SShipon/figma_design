@@ -18,11 +18,16 @@ import DeliverExperience from "../components/deliverExperience/DeliverExperience
 import Shien from "../components/shien/Shien";
 import Creative from "../components/creative/Creative";
 import Coffee from "../components/coffe/Coffee";
+import Beyond from "../components/beyond/Beyond";
+import Digital from "../components/digital/Digital";
+import Perfect from "../components/perfect/Perfect";
 const Home = () => {
     return (
         <>
         <FashionCard />
-         <Shien />
+        <Beyond />
+         <Digital />
+         <Perfect />
          <Coffee />
         <DeliverExperience />
         <Creative />
@@ -38,6 +43,7 @@ const Home = () => {
          <Inspiration />
           <DiscoverBeauty />
           <Deliver />
+          <Shien />
           <Discovers />
           <Explore />
         </>
