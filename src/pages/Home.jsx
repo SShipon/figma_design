@@ -21,10 +21,12 @@ import Coffee from "../components/coffe/Coffee";
 import Beyond from "../components/beyond/Beyond";
 import Digital from "../components/digital/Digital";
 import Perfect from "../components/perfect/Perfect";
+import Collaborate from "../components/collaborate/Collaborate";
 const Home = () => {
     return (
         <>
         <FashionCard />
+        <Collaborate />
         <Beyond />
          <Digital />
          <Perfect />
