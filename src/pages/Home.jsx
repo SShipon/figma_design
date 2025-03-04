@@ -16,13 +16,16 @@ import Love from "../components/love/Love";
 import Deliver from "../components/deliver/Deliver";
 import DeliverExperience from "../components/deliverExperience/DeliverExperience";
 import Shien from "../components/shien/Shien";
-
+import Creative from "../components/creative/Creative";
+import Coffee from "../components/coffe/Coffee";
 const Home = () => {
     return (
         <>
         <FashionCard />
          <Shien />
+         <Coffee />
         <DeliverExperience />
+        <Creative />
         <Love />
         <TravelCard />
         <Walk />
