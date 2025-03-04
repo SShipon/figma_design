@@ -36,19 +36,19 @@ const FashionCard = () => {
             <div className="grid grid-cols-2 md:grid-cols-4 gap-4 py-10">
               <div>
                 <p className="text-lg font-bold">28K</p>
-                <p className="text-sm text-gray-500">Lorem ipsum</p>
+                <p className="text-sm text-gray-500">Lorem ipsum dolor sit amet </p>
               </div>
               <div>
                 <p className="text-lg font-bold">16K</p>
-                <p className="text-sm text-gray-500">Lorem ipsum</p>
+                <p className="text-sm text-gray-500">Lorem ipsum dolor sit amet </p>
               </div>
               <div>
                 <p className="text-lg font-bold">986</p>
-                <p className="text-sm text-gray-500">Lorem ipsum</p>
+                <p className="text-sm text-gray-500">Lorem ipsum dolor sit amet </p>
               </div>
               <div>
                 <p className="text-lg font-bold">35K+</p>
-                <p className="text-sm text-gray-500">Lorem ipsum</p>
+                <p className="text-sm text-gray-500">Lorem ipsum dolor sit amet </p>
               </div>
             </div>
           </div>
