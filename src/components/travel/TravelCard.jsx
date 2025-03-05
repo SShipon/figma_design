@@ -10,7 +10,6 @@ const TravelCard = () => {
       }}
     >
       <div className="max-w-4xl flex flex-col md:flex-row gap-8">
-        {/* Left Section (40%) */}
         <div className="p-6 rounded-lg shadow-md border border-black relative md:w-2/5  my-8">
           <div className="absolute -top-16 left-1/2 transform -translate-x-1/2  p-4 rounded-full shadow-md border">
             <img className="w-[100px] h-[100px]" src={ellapsImg} alt="" />
@@ -38,7 +37,6 @@ const TravelCard = () => {
           </div>
         </div>
 
-        {/* Right Section (60%) */}
         <div className="md:w-3/5 text-center md:text-left">
           <h2 className="text-3xl font-bold">Travel to see the world different</h2>
           <p className="text-gray-600 mt-4">

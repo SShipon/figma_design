@@ -22,24 +22,26 @@ import Beyond from "../components/beyond/Beyond";
 import Digital from "../components/digital/Digital";
 import Perfect from "../components/perfect/Perfect";
 import Collaborate from "../components/collaborate/Collaborate";
+import Delightful from "../components/delightful/Delightful";
 const Home = () => {
     return (
         <>
         <FashionCard />
+        <Creative />
+        <Perfect />
+        <Coffee />
+        <Watch />
         <Collaborate />
+        <Delightful />
         <Beyond />
          <Digital />
-         <Perfect />
-         <Coffee />
         <DeliverExperience />
-        <Creative />
         <Love />
         <TravelCard />
         <Walk />
         <Dream />
         <Garden />
         <InteriorDesign />
-        <Watch />
         <Projects />
         <Exploration />
          <Inspiration />

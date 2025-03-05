@@ -56,19 +56,12 @@ const Digital = () => {
           ))}
         </div>
       </div>
-
-      {/* Background Image with Overlaying Button and Stats */}
       <div className="relative w-full">
         <img src={laptop} alt="Laptop" className="w-screen h-96 object-cover" />
-        
-        {/* Get Started Button and Stats Section */}
         <div className="absolute top-2 left-0 md:left-10 lg:left-44  w-full flex flex-col md:flex-row items-center justify-center gap-10">
-          {/* Get Started Button */}
           <button className="bg-black text-white px-6 py-3 rounded-full font-semibold z-10">
             Get started
           </button>
-
-          {/* Stats Section */}
           <div className="relative flex items-center space-x-6 z-10 px-8 py-4 bg-transparent gap-10 rounded-full  
             before:absolute before:inset-0 before:border-2 before:border-black before:rounded-full before:-translate-x-1 before:-translate-y-1  
             after:absolute after:inset-0 after:border-2 after:border-black after:rounded-full after:translate-x-1 after:translate-y-1 w-80 h-16">

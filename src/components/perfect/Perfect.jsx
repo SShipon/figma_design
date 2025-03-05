@@ -1,19 +1,16 @@
 
-import { FaStar } from "react-icons/fa";
 import imageMain from "../../assets/img/Image.png";
-import image1 from "../../assets/img/1 (1).png";
-import image2 from "../../assets/img/2 (1).png";
-import image3 from "../../assets/img/3 (1).png";
 import men1 from "../../assets/img/Ellipse 169 (1).png";
 import men2 from "../../assets/img/Ellipse 169.png";
 import star from "../../assets/img/Soft Star.png";
+import { perfectData, perfectImages } from "../../lib/data";
 
 const Perfect = () => {
   const customShadow = "10px 10px 5px 0px rgba(0,0,0,0.75)";
   return (
     <div className="relative bg-white max-w-6xl mx-auto py-12 px-4 sm:px-6 lg:px-8">
       <div className="flex flex-col md:flex-row lg:flex-row items-center lg:items-start gap-8 lg:gap-14">
-        {/* Left Section */}
+    
         <div className="flex-1 space-y-6 text-center lg:text-left">
           <div className="flex items-center gap-2 text-sm text-gray-600 justify-center lg:justify-start">
             <span className="text-lg">✦</span>
@@ -36,7 +33,7 @@ const Perfect = () => {
           </div>
         </div>
 
-        {/* Middle Section (Main Image) with Star */}
+  
         <div className="relative flex-1 mt-10 lg:mt-0 w-full flex justify-center">
           <img
             src={star}
@@ -53,7 +50,7 @@ const Perfect = () => {
               className="rounded-lg w-full max-w-xs sm:max-w-sm sm:w-[350px] h-auto sm:h-[450px] mx-auto my-6"
             />
 
-            {/* Floating Comments */}
+         
             <div className="absolute lg:top-60 md:top-40 top-52 lg:-left-24 md:-left-24 -left-16 bg-white bg-opacity-80 p-2 sm:p-3 rounded-lg shadow-md w-40 sm:w-52 border border-black">
               <div className="flex items-center justify-center gap-1 sm:gap-2">
                 <img src={men1} alt="User" className="w-12 sm:w-16 h-12 sm:h-16 rounded-full" />
@@ -78,61 +75,30 @@ const Perfect = () => {
           </div>
         </div>
 
-        {/* Right Section (Small Images) */}
         <div className="flex flex-row sm:flex-col gap-3 sm:gap-6 mt-8 lg:mt-0">
-          <img
-            src={image1}
-            alt="Architectural doorway"
-            className="rounded-lg w-24 sm:w-32 h-32 sm:h-40 object-cover"
-          />
-          <img
-            src={image2}
-            alt="Glass ceiling structure"
-            className="rounded-lg w-24 sm:w-32 h-32 sm:h-40 object-cover"
-          />
-          <img
-            src={image3}
-            alt="Ornate interior"
-            className="rounded-lg w-24 sm:w-32 h-32 sm:h-40 object-cover"
-          />
-        </div>
+      {perfectImages.map((image) => (
+        <img
+          key={image.id}
+          src={image.src}
+          alt={image.alt}
+          className="rounded-lg w-24 sm:w-32 h-32 sm:h-40 object-cover"
+        />
+      ))}
+    </div>
       </div>
       
-      {/* Stats Section */}
-      <div className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-4 gap-6 md:gap-10 lg:gap-32  mt-12">
+      <div className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-4 gap-6 md:gap-10 lg:gap-32 mt-12">
+      {perfectData.map((card) => (
         <div
-          className="bg-blue-100 p-4 sm:p-6 rounded-2xl w-full sm:w-72 flex flex-row text-start border border-black mx-auto"
+          key={card.id}
+          className={`${card.bgColor} p-4 sm:p-6 rounded-2xl w-full sm:w-72 flex flex-row text-start border border-black mx-auto ${card.colSpan || ""}`}
           style={{ boxShadow: customShadow }}
         >
-          <p className="text-lg sm:text-xl font-bold mr-2">351K</p>
-          <p className="text-xs text-gray-600">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-          </p>
+          <p className="text-lg sm:text-xl font-bold mr-2">{card.value}</p>
+          <p className="text-xs text-gray-600">{card.description}</p>
         </div>
-
-        <div
-          className="bg-yellow-200 p-4 sm:p-6 rounded-2xl w-full sm:w-72 flex flex-row text-start border border-black mx-auto"
-          style={{ boxShadow: customShadow }}
-        >
-          <p className="text-lg sm:text-xl font-bold mr-2">99%</p>
-          <p className="text-xs text-gray-600">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-          </p>
-        </div>
-
-        <div
-          className="bg-pink-200 p-4 sm:p-6 rounded-2xl w-full sm:w-72 flex flex-row text-start border border-black mx-auto sm:col-span-2 lg:col-span-1"
-          style={{ boxShadow: customShadow }}
-        >
-          <div className="flex items-center mr-2">
-            <FaStar className="text-yellow-500 mr-1" />
-            <p className="text-lg sm:text-xl font-bold">4.89</p>
-          </div>
-          <p className="text-xs text-gray-600">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-          </p>
-        </div>
-      </div>
+      ))}
+    </div>
     </div>
   );
 };

@@ -1,7 +1,7 @@
 
 import { cardData } from "../../lib/data";
 import design1 from "../../assets/walk/design1.png";
-import ellips  from "../../assets/walk/Ellipse-removebg-preview.png";
+import ellips from "../../assets/walk/Ellipse-removebg-preview.png";
 const Love = () => {
   return (
     <div className="flex justify-center items-end min-h-screen bg-[#efaf64] relative text-white">
@@ -32,23 +32,23 @@ const Love = () => {
                 <h3 className="font-bold text-lg text-orange-600">
                   {card.title}
                 </h3>
-                {/* </div> */}
+             
                 <p className="text-gray-600 mt-2">{card.description}</p>
               </div>
             ))}
           </div>
         </div>
 
-        {/* 30% Section */}
+
         <div className="relative flex flex-col items-center">
-          {/* Gradient background */}
+
           <div className="w-full md:w-[27vw] h-[500px] flex justify-center items-center bg-gradient-to-b from-[#f0b672] to-[#f8dcbb] rounded-b-full -mb-64"></div>
-          {/* Image below gradient div */}
+
           <img src={design1} alt="Character" className="max-w-sm -mt-24" />
         </div>
       </div>
 
-      {/* White background at bottom */}
+
       <div className="bg-white w-full h-28 absolute bottom-0 z-0"></div>
     </div>
   );

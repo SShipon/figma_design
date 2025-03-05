@@ -32,7 +32,7 @@ const Beyond = () => {
         </div>
       </div>
       
-      {/* Card Section */}
+  
       <div className="grid grid-cols-1 md:grid-cols-4 gap-6 py-12 max-w-6xl mx-auto relative z-50">
         {[1, 2, 3, 4].map((_, index) => (
           <div key={index} className="bg-gray-900 p-6 rounded-lg shadow-lg text-start relative z-50">

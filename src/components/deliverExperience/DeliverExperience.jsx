@@ -8,7 +8,6 @@ const Design47 = () => {
     <div className="bg-gray-100">
       <div className="w-full  py-12 md:py-16 lg:py-20 max-w-6xl mx-auto ">
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
-          {/* Left Content */}
           <div>
             <div className="space-y-4">
               <h2 className="text-3xl md:text-5xl font-bold text-black">
@@ -30,14 +29,12 @@ const Design47 = () => {
               </button>
             </div>
           </div>
-          {/* Right Image */}
           <div className="flex justify-center">
             <img src={hero} alt="Polaroid Camera" className="w-96 h-auto" />
             <img src={ellips} alt="" className="rounded-full h-20 w-20"/>
           </div>
          
         </div>
-        {/* Titles Section */}
         <div className="mt-12 grid grid-cols-1 md:grid-cols-4 gap-6">
           {titleData.map((item) => (
             <div
